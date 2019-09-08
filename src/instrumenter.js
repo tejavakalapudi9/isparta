@@ -1,7 +1,7 @@
 //
 
 import istanbul from 'istanbul';
-import {transform as babelTransform} from 'babel-core';
+import {transform as babelTransform} from '@babel/core';
 
 import { parse } from 'esprima';
 import escodegen from 'escodegen';
